@@ -17,25 +17,25 @@ The dataset used is from a Kaggle competition, containing transactions made by E
   ## Methodology
 This project followed a structured approach to tackle the challenges of a highly imbalanced dataset.
 
-    ## Exploratory Data Analysis (EDA):
+    * Exploratory Data Analysis (EDA):
 
         I performed a thorough analysis to understand the data distribution, correlations, and to identify potential outliers using Box Plots and Violin Plots.
         
         Correlation analysis was used to identify features that have the strongest positive or negative relationships with the Class variable.
         
-      ### Feature Engineering:
+    * Feature Engineering:
         
         I created time-based proxies like Hour_from_start_mod24, is_night_proxy, and is_business_hours_proxy to capture temporal patterns.
         
         A logarithmic transformation was applied to the Amount feature to handle its right-skewed distribution.
         
-      ### Handling Imbalanced Data:
+    * Handling Imbalanced Data:
         
         The dataset was split into training, validation, and test sets to ensure an unbiased evaluation.
         
         I used the imblearn library to implement various over-sampling (SMOTE) and under-sampling (RandomUnderSampler) techniques within a pipeline to balance the training data.
         
-      ### Model Training and Evaluation:
+    * Model Training and Evaluation:
         
         I trained several classification models, including Logistic Regression, Random Forest, and XGBoost.
         
