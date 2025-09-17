@@ -17,7 +17,7 @@ The dataset used is from a Kaggle competition, containing transactions made by E
   ## Methodology
 This project followed a structured approach to tackle the challenges of a highly imbalanced dataset.
 
-      ### Exploratory Data Analysis (EDA):
+    ## Exploratory Data Analysis (EDA):
 
         I performed a thorough analysis to understand the data distribution, correlations, and to identify potential outliers using Box Plots and Violin Plots.
         
